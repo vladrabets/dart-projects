@@ -1,6 +1,5 @@
 String ex1(String s) {
-  s = s.split('').toSet().toList().join('');
-  return s;
+  return s.split('').toSet().toList().join('');
 }
 
 int ex2(int k, int n) {
